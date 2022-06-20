@@ -1,0 +1,29 @@
+.task {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.task form {
+  -ms-grid-column-align: center;
+      justify-self: center;
+  width: 500px;
+  display: -ms-grid;
+  display: grid;
+}
+
+.task form .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.task form .inputTask textarea {
+  width: 100%;
+}
